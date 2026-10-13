@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+/* .body{
+    background-color: rgb(0, 0, 0); */
+
+
+ nav{
+    height:10%;
+    width:100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 10px;
+ }   
+
+ button{
+    padding:5px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+
+ }
+
+.pform{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.532);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+form{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height:50%;
+    width:30%;
+    background-color: rgba(29, 197, 227, 0.628);
+    
+    
+}
+.btn{
+    padding: 5px 20px;
+}
+#course{
+    padding:5px 40px
+}
+
+#status{
+    padding:5px 40px
+}
+
+#image{
+     padding:5px 40px
+}
+
+
+.cards{
+    height:100%;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    display: none;
+    padding-top: 10px;
+}
+
+.card{
+    height:50%;
+    width:20%;
+    background-color: rgb(89, 89, 210);
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.img{
+    height:85%;
+    width:100% ;
+   
+}
+img{
+    height: 97%;
+    width:100%;
+    object-fit: contain;
+    border-radius:5px;
+    overflow: hidden;
+}
+.card-info{
+    font-size: 14px;
+    font-weight:800 ;
+    
+    color: white;
+    padding-left: 10px;
+}
+
+.upde{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
